@@ -53,11 +53,11 @@ body {
 a {
   font-size: 1.6rem;
   cursor: pointer;
-  color: var(--white-color);
+  color: #0a5fc5;
   transition: color .2s ease-in;
   text-decoration: none; }
   a:hover {
-    color: var(--primary-color); }
+    color: var(--primary-color) !important; }
 
 h1 {
   font-size: 4rem;
