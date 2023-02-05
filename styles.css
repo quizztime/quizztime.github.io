@@ -1,3 +1,11 @@
+@keyframes fade-out {
+  0% {
+    transform: scale(1);
+    opacity: 1; }
+  100% {
+    transform: scale(0);
+    opacity: 0; } }
+
 body {
   --white-color: #fff;
   --dark-primary-color: #092258;
@@ -173,6 +181,9 @@ button {
 .page-content {
   position: relative;
   padding-bottom: 2.1rem; }
+  .page-content > *:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0; }
   .page-content::before {
     content: "";
     display: block;
