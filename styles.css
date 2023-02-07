@@ -6,6 +6,15 @@
     transform: scale(0);
     opacity: 0; } }
 
+@keyframes hidden-with-opacity {
+  0% {
+    opacity: 1; }
+  99% {
+    opacity: 0; }
+  100% {
+    opacity: 0;
+    display: none; } }
+
 body {
   --white-color: #fff;
   --dark-primary-color: #092258;
@@ -14,7 +23,9 @@ body {
   --scrollbar-color: rgba(0, 0, 0, 0.15);
   --body-background-color: #ffffff;
   --body-background-color: #fafafa;
-  --text-color: #495057; }
+  --text-color: #495057;
+  --green-color: #4b9863;
+  --red-color: #c8473b; }
 
 *,
 *::after,
@@ -100,6 +111,9 @@ button {
 
 .hidden {
   display: none !important; }
+
+.hidden-with-opacity {
+  animation: hidden-with-opacity .3s normal forwards ease-in-out; }
 
 .max-width {
   max-width: var(--max-width);
