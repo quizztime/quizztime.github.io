@@ -19,16 +19,6 @@ eval("// Module\nvar code = \"<div class=\\\"overlay\\\">\\r\\n    <div #navbarC
 
 /***/ }),
 
-/***/ "./src/app/components/footer/footer.component.html":
-/*!*********************************************************!*\
-  !*** ./src/app/components/footer/footer.component.html ***!
-  \*********************************************************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
-
-eval("// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ../../assets/logo.svg */ \"./src/app/assets/logo.svg\");\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<footer>\\r\\n    <a class=\\\"logo\\\" href='/fr/' target=\\\"_blank\\\">\\r\\n        <img src='\" + ___HTML_LOADER_REPLACEMENT_0___ + \"' alt='logo' />\\r\\n    </a>\\r\\n    <div class=\\\"links\\\">\\r\\n        <a href=\\\"/fr/contact\\\">Contact</a>\\r\\n        <span>|</span>\\r\\n        <a href=\\\"/fr/privacy\\\">Politique de confidentialité</a>\\r\\n    </div>\\r\\n    <p class=\\\"all-right-reserved\\\">© 2023 Quizz Time. Tous les droits réservés</p>\\r\\n    <ng-content></ng-content>\\r\\n</footer>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/footer/footer.component.html?");
-
-/***/ }),
-
 /***/ "./src/app/components/icon-button/icon-button.component.html":
 /*!*******************************************************************!*\
   !*** ./src/app/components/icon-button/icon-button.component.html ***!
@@ -65,7 +55,7 @@ eval("// Module\nvar code = \"<svg class=\\\"flag\\\" #en title=\\\"Switch to En
   \*******************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ../../assets/logo.svg */ \"./src/app/assets/logo.svg\");\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<a class=\\\"logo\\\" href='/fr/'>\\r\\n    <img src='\" + ___HTML_LOADER_REPLACEMENT_0___ + \"' alt='logo' />\\r\\n</a>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar-logo/navbar-logo.component.html?");
+eval("// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ../../assets/logo.svg */ \"./src/app/assets/logo.svg\");\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<a class=\\\"logo\\\" href='/'>\\r\\n    <img src='\" + ___HTML_LOADER_REPLACEMENT_0___ + \"' alt='logo' />\\r\\n</a>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar-logo/navbar-logo.component.html?");
 
 /***/ }),
 
@@ -75,7 +65,7 @@ eval("// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_requi
   \********************************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<nav #nav class=\\\"roof\\\">\\r\\n    <div class=\\\"nav-container max-width\\\">\\r\\n        <div class='left'>\\r\\n            <app-navbar-logo></app-navbar-logo>\\r\\n        </div>\\r\\n        <div class='right'>\\r\\n            <a href=\\\"/fr/contact\\\">Contact</a>\\r\\n            <a href=\\\"/fr/about\\\">Info</a>\\r\\n            <app-language-switcher></app-language-switcher>\\r\\n        </div>\\r\\n    </div>\\r\\n</nav>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar/desktop-navbar/desktop-navbar.component.html?");
+eval("// Module\nvar code = \"<nav #nav class=\\\"roof\\\">\\r\\n    <div class=\\\"nav-container max-width\\\">\\r\\n        <div class='left'>\\r\\n            <app-navbar-logo></app-navbar-logo>\\r\\n        </div>\\r\\n        <div class='right'>\\r\\n            <a href=\\\"/contact\\\">Contact</a>\\r\\n            <a href=\\\"/about\\\">About</a>\\r\\n            <app-language-switcher></app-language-switcher>\\r\\n        </div>\\r\\n    </div>\\r\\n</nav>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar/desktop-navbar/desktop-navbar.component.html?");
 
 /***/ }),
 
@@ -85,17 +75,7 @@ eval("// Module\nvar code = \"<nav #nav class=\\\"roof\\\">\\r\\n    <div class=
   \******************************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<nav #navbar class=\\\"nav-container\\\">\\r\\n    <div class=\\\"nav-top\\\">\\r\\n        <app-navbar-logo></app-navbar-logo>\\r\\n        <div class=\\\"menu-button-container\\\">\\r\\n            <app-language-switcher></app-language-switcher>\\r\\n            <app-icon-button #openButton (action)=\\\"onOpen()\\\" icon='icon-park-outline:hamburger-button'></app-icon-button>\\r\\n            <app-icon-button #closeButton (action)=\\\"onClose()\\\" icon='material-symbols:close-rounded'></app-icon-button>\\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <div class=\\\"menu-container\\\" #navigation>\\r\\n        <a href=\\\"/fr/contact\\\">Contact</a>\\r\\n        <a href=\\\"/fr/about\\\">Info</a>\\r\\n    </div>\\r\\n</nav>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar/mobile-navbar/mobile-navbar.component.html?");
-
-/***/ }),
-
-/***/ "./src/app/components/page-title/page-title.component.html":
-/*!*****************************************************************!*\
-  !*** ./src/app/components/page-title/page-title.component.html ***!
-  \*****************************************************************/
-/***/ ((module) => {
-
-eval("// Module\nvar code = \"<div class=\\\"page-title-container\\\">\\r\\n    <app-background-overlay></app-background-overlay>\\r\\n    <h1>{{title}}</h1>\\r\\n</div>\\r\\n\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/page-title/page-title.component.html?");
+eval("// Module\nvar code = \"<nav #navbar class=\\\"nav-container\\\">\\r\\n    <div class=\\\"nav-top\\\">\\r\\n        <app-navbar-logo></app-navbar-logo>\\r\\n        <div class=\\\"menu-button-container\\\">\\r\\n            <app-language-switcher></app-language-switcher>\\r\\n            <app-icon-button #openButton (action)=\\\"onOpen()\\\" icon='icon-park-outline:hamburger-button'></app-icon-button>\\r\\n            <app-icon-button #closeButton (action)=\\\"onClose()\\\" icon='material-symbols:close-rounded'></app-icon-button>\\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <div class=\\\"menu-container\\\" #navigation>\\r\\n        <a href=\\\"/contact\\\">Contact</a>\\r\\n        <a href=\\\"/about\\\">About</a>\\r\\n    </div>\\r\\n</nav>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar/mobile-navbar/mobile-navbar.component.html?");
 
 /***/ }),
 
@@ -105,7 +85,27 @@ eval("// Module\nvar code = \"<div class=\\\"page-title-container\\\">\\r\\n    
   \*************************************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<div class=\\\"cookies-consentement-msg\\\">\\r\\n    <app-icon iconName=\\\"ant-design:info-circle-outlined\\\" color=\\\"#545252\\\"></app-icon>\\r\\n    <p>We use Cookies and Local Storage to improve your experience on our website. To find out more, read our <a href=\\\"/fr/privacy\\\">Privacy Policy</a></p>\\r\\n</div>\\r\\n<button (click)=\\\"onGotItButtonClick()\\\">Got it</button>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/privacy-consentement/privacy-consentement.component.html?");
+eval("// Module\nvar code = \"<div class=\\\"cookies-consentement-msg\\\">\\r\\n    <app-icon iconName=\\\"ant-design:info-circle-outlined\\\" color=\\\"#545252\\\"></app-icon>\\r\\n    <p>We use Cookies and Local Storage to improve your experience on our website. To find out more, read our <a href=\\\"/privacy\\\">Privacy Policy</a></p>\\r\\n</div>\\r\\n<button (click)=\\\"onGotItButtonClick()\\\">Got it</button>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/privacy-consentement/privacy-consentement.component.html?");
+
+/***/ }),
+
+/***/ "./src/app/pages/404/components/main/main.component.html":
+/*!***************************************************************!*\
+  !*** ./src/app/pages/404/components/main/main.component.html ***!
+  \***************************************************************/
+/***/ ((module) => {
+
+eval("// Module\nvar code = \"<div class=\\\"layout-error-404\\\">\\r\\n  <app-stage-background></app-stage-background>\\r\\n  <h1>404</h1>\\r\\n  <span>Oopss... Page Not Found</span>\\r\\n  <a href=\\\"/\\\" class=\\\"btn\\\">Back to home</a>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/404/components/main/main.component.html?");
+
+/***/ }),
+
+/***/ "./src/app/pages/index/components/stage-background/stage-background.component.html":
+/*!*****************************************************************************************!*\
+  !*** ./src/app/pages/index/components/stage-background/stage-background.component.html ***!
+  \*****************************************************************************************/
+/***/ ((module) => {
+
+eval("// Module\nvar code = \"<app-background-overlay></app-background-overlay>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/index/components/stage-background/stage-background.component.html?");
 
 /***/ }),
 
@@ -127,16 +127,6 @@ eval("\n\nmodule.exports = function (url, options) {\n  if (!options) {\n    // 
 /***/ ((module) => {
 
 eval("module.exports = \"app-background-overlay {\\n  position: absolute;\\n  overflow: hidden;\\n  height: 100vh;\\n  right: 0;\\n  top: 0;\\n  left: 0;\\n  pointer-events: none;\\n}\\napp-background-overlay .overlay {\\n  position: relative;\\n  width: 100%;\\n  height: 100%;\\n}\\n\\n.navbar-circle {\\n  clip-path: circle(50% at 50% 0);\\n  background-color: rgba(249, 250, 254, 0.1);\\n  position: absolute;\\n  top: 0px;\\n  height: 300px;\\n  width: 300px;\\n  display: none;\\n}\\n@media screen and (min-width: 1024px) {\\n  .navbar-circle {\\n    display: block;\\n  }\\n}\\n\\n.eclipse-left {\\n  clip-path: circle(50% at 0 50%);\\n  background-color: rgba(249, 250, 254, 0.1);\\n  position: absolute;\\n  top: 10rem;\\n  left: 0;\\n  height: 20rem;\\n  width: 20rem;\\n}\\n@media screen and (min-width: 768px) {\\n  .eclipse-left {\\n    height: 30rem;\\n    width: 30rem;\\n  }\\n}\\n@media screen and (min-width: 1024px) {\\n  .eclipse-left {\\n    top: 22rem;\\n  }\\n}\\n\\n.eclipse-bottom {\\n  clip-path: circle(50% at 50% 100%);\\n  background-color: rgba(249, 250, 254, 0.1);\\n  position: absolute;\\n  bottom: -16rem;\\n  left: 50%;\\n  transform: translateX(-50%);\\n  height: 32rem;\\n  width: 65rem;\\n  pointer-events: none;\\n}\\n@media screen and (min-width: 768px) {\\n  .eclipse-bottom {\\n    width: 80rem;\\n  }\\n}\\napp-page-title .eclipse-bottom {\\n  display: none;\\n}\\n\\n.cercles {\\n  position: absolute;\\n  left: 50%;\\n  top: 10rem;\\n}\\n@media screen and (min-width: 375px) {\\n  .cercles {\\n    left: 55%;\\n  }\\n}\\n@media screen and (min-width: 500px) {\\n  .cercles {\\n    left: 60%;\\n  }\\n}\\n@media screen and (min-width: 600px) {\\n  .cercles {\\n    left: 70%;\\n  }\\n}\\n@media screen and (min-width: 1024px) {\\n  .cercles {\\n    left: 35%;\\n    top: 6rem;\\n  }\\n}\\n.cercles .big-cercle {\\n  clip-path: circle(50% at 50% 50%);\\n  height: 9rem;\\n  width: 9rem;\\n  background-color: rgba(249, 250, 254, 0.1);\\n}\\n@media screen and (min-width: 768px) {\\n  .cercles .big-cercle {\\n    height: 11rem;\\n    width: 11rem;\\n  }\\n}\\n.cercles .small-cercle {\\n  clip-path: circle(50% at 50% 50%);\\n  height: 4rem;\\n  width: 4rem;\\n  background-color: rgba(249, 250, 254, 0.1);\\n  margin: 0rem 0 0 8rem;\\n}\\n@media screen and (min-width: 768px) {\\n  .cercles .small-cercle {\\n    height: 5rem;\\n    width: 5rem;\\n    margin: 1rem 0 0 10rem;\\n  }\\n}\";\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/background-overlay/background-overlay.component.scss?");
-
-/***/ }),
-
-/***/ "./src/app/components/footer/footer.component.scss":
-/*!*********************************************************!*\
-  !*** ./src/app/components/footer/footer.component.scss ***!
-  \*********************************************************/
-/***/ ((module) => {
-
-eval("module.exports = \"footer {\\n  background-color: var(--dark-primary-color);\\n  padding: 5rem 0 2rem;\\n  display: flex;\\n  align-items: center;\\n  justify-content: center;\\n  flex-direction: column;\\n  position: relative;\\n}\\nfooter .logo {\\n  height: 3.5rem;\\n  display: flex;\\n  align-items: center;\\n  text-decoration: none;\\n}\\nfooter .logo img {\\n  height: 4rem;\\n  margin-bottom: 2rem;\\n}\\nfooter .logo span {\\n  margin-left: 1rem;\\n  color: rgba(255, 255, 255, 0.8);\\n}\\nfooter .links {\\n  display: flex;\\n  align-items: center;\\n  column-gap: 1rem;\\n}\\nfooter .links span {\\n  color: rgba(255, 255, 255, 0.8);\\n}\\nfooter .links a {\\n  font-size: 1.35rem;\\n  font-weight: 600;\\n  opacity: 0.85;\\n  color: var(--white-color);\\n}\\nfooter .all-right-reserved {\\n  font-size: 1.35rem;\\n  font-weight: 500;\\n  margin: 0.8rem 0 0;\\n  color: rgba(255, 255, 255, 0.8);\\n}\";\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/footer/footer.component.scss?");
 
 /***/ }),
 
@@ -200,16 +190,6 @@ eval("module.exports = \"nav {\\n  background: var(--dark-primary-color);\\n  po
 
 /***/ }),
 
-/***/ "./src/app/components/page-title/page-title.component.scss":
-/*!*****************************************************************!*\
-  !*** ./src/app/components/page-title/page-title.component.scss ***!
-  \*****************************************************************/
-/***/ ((module) => {
-
-eval("module.exports = \".page-title-container {\\n  height: 50rem;\\n  padding-top: 20rem;\\n  margin: auto;\\n}\\n.static-page .page-title-container {\\n  height: 40rem;\\n}\\n@media screen and (min-width: 1024px) {\\n  .static-page .page-title-container {\\n    height: 50rem;\\n  }\\n}\\n.page-title-container:before {\\n  content: \\\"\\\";\\n  display: block;\\n  position: absolute;\\n  z-index: -1;\\n  width: 100vw;\\n  top: 0;\\n  left: calc(50% - 50vw);\\n  background-color: var(--dark-primary-color);\\n  clip-path: polygon(0 0, 100% 0, 100% 83%, 0% 100%);\\n  height: 50rem;\\n}\\n.page-title-container > h1 {\\n  margin: 0;\\n  color: var(--white-color);\\n  font-size: 3.2rem;\\n  text-align: center;\\n  text-transform: capitalize;\\n}\\n@media screen and (min-width: 768px) {\\n  .page-title-container > h1 {\\n    font-size: 4.8rem;\\n    text-align: unset;\\n  }\\n}\";\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/page-title/page-title.component.scss?");
-
-/***/ }),
-
 /***/ "./src/app/components/privacy-consentement/privacy-consentement.component.scss":
 /*!*************************************************************************************!*\
   !*** ./src/app/components/privacy-consentement/privacy-consentement.component.scss ***!
@@ -217,6 +197,26 @@ eval("module.exports = \".page-title-container {\\n  height: 50rem;\\n  padding-
 /***/ ((module) => {
 
 eval("module.exports = \":host {\\n  z-index: 100;\\n  display: flex;\\n  position: fixed;\\n  bottom: -100%;\\n  left: 0;\\n  right: 0;\\n  padding: 2rem 6rem;\\n  background-color: #f2f2f2;\\n  transition: bottom 1.5s ease-in-out;\\n  display: flex;\\n  align-items: center;\\n  justify-content: space-between;\\n  transition: bottom 1.5s ease-in-out;\\n  box-shadow: 0 0 5px 2px rgba(74, 74, 74, 0.2);\\n}\\n:host.show {\\n  bottom: 0;\\n}\\n:host .cookies-consentement-msg {\\n  display: flex;\\n  align-items: center;\\n}\\n:host .cookies-consentement-msg ::ng-deep app-icon {\\n  margin-right: 2rem;\\n  font-size: 2.5rem;\\n  display: flex;\\n}\\n:host .cookies-consentement-msg p {\\n  padding-bottom: 0;\\n}\\n:host button {\\n  border-radius: 100rem;\\n  font-size: 1.4rem;\\n  font-weight: 500;\\n  cursor: pointer;\\n  white-space: nowrap;\\n  padding: 0.6rem 3rem;\\n  border: 2px solid transparent;\\n  margin-left: 2rem;\\n  background-color: var(--secondary-color);\\n  color: white;\\n  transition: var(--transition);\\n  transition-property: background-color;\\n}\\n:host button:hover {\\n  background-color: rgba(10, 94, 197, 0.8);\\n}\\n\\n@media screen and (max-width: 600px) {\\n  :host {\\n    flex-direction: column;\\n    justify-content: start;\\n    padding-left: 3rem;\\n    padding-right: 3rem;\\n    padding-bottom: 3rem;\\n  }\\n  app-icon {\\n    display: none !important;\\n  }\\n  button {\\n    margin-left: 0 !important;\\n    margin-top: 2rem !important;\\n    width: 100% !important;\\n  }\\n}\";\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/privacy-consentement/privacy-consentement.component.scss?");
+
+/***/ }),
+
+/***/ "./src/app/pages/404/components/main/main.component.scss":
+/*!***************************************************************!*\
+  !*** ./src/app/pages/404/components/main/main.component.scss ***!
+  \***************************************************************/
+/***/ ((module) => {
+
+eval("module.exports = \".layout-error-404 {\\n  height: 100vh;\\n  min-height: 75rem;\\n  display: flex;\\n  flex-direction: column;\\n  justify-content: center;\\n  align-items: center;\\n  color: var(--white-color);\\n}\\n.layout-error-404 h1 {\\n  font-size: 20rem;\\n  line-height: 1;\\n}\\n.layout-error-404 span {\\n  font-size: 3.2rem;\\n}\\n.layout-error-404 .btn {\\n  background-color: var(--primary-color);\\n  color: var(--white-color);\\n  font-size: 2.4rem;\\n  border-radius: 0.6rem;\\n  padding: 1rem 6rem;\\n  margin-top: 4rem;\\n  transition: transform 0.3s cubic-bezier(0.25, 0, 0.2, 1);\\n}\\n.layout-error-404 .btn:hover {\\n  color: var(--white-color) !important;\\n  transform: scale(1.1);\\n}\";\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/404/components/main/main.component.scss?");
+
+/***/ }),
+
+/***/ "./src/app/pages/index/components/stage-background/stage-background.component.scss":
+/*!*****************************************************************************************!*\
+  !*** ./src/app/pages/index/components/stage-background/stage-background.component.scss ***!
+  \*****************************************************************************************/
+/***/ ((module) => {
+
+eval("module.exports = \":host:before {\\n  content: \\\"\\\";\\n  display: block;\\n  position: absolute;\\n  z-index: -1;\\n  width: 100vw;\\n  top: 0;\\n  left: calc(50% - 50vw);\\n  background-color: var(--dark-primary-color);\\n  height: 100vh;\\n}\";\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/index/components/stage-background/stage-background.component.scss?");
 
 /***/ }),
 
@@ -777,18 +777,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\r\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\r\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\r\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\r\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.BackgroundOverlayComponent = void 0;\r\nvar core_1 = __webpack_require__(/*! @angular/core */ \"./node_modules/@angular/core/fesm2020/core.mjs\");\r\nvar BackgroundOverlayComponent = /** @class */ (function () {\r\n    function BackgroundOverlayComponent() {\r\n    }\r\n    BackgroundOverlayComponent.prototype.ngAfterViewInit = function () {\r\n        document.addEventListener('page-loader-hide', this.update.bind(this));\r\n        window.addEventListener('resize', this.update.bind(this));\r\n    };\r\n    BackgroundOverlayComponent.prototype.update = function () {\r\n        var left = document.querySelector('nav .right').getBoundingClientRect().left;\r\n        var width = document.querySelector('nav .right').getBoundingClientRect().width;\r\n        this.circle.nativeElement.style.left = (left - 60) + 'px';\r\n        this.circle.nativeElement.style.width = (width + 120) + 'px';\r\n    };\r\n    __decorate([\r\n        (0, core_1.ViewChild)('navbarCircle')\r\n    ], BackgroundOverlayComponent.prototype, \"circle\", void 0);\r\n    BackgroundOverlayComponent = __decorate([\r\n        (0, core_1.Component)({\r\n            selector: 'app-background-overlay',\r\n            template: __webpack_require__(/*! ./background-overlay.component.html */ \"./src/app/components/background-overlay/background-overlay.component.html\"),\r\n            styles: [__webpack_require__(/*! ./background-overlay.component.scss */ \"./src/app/components/background-overlay/background-overlay.component.scss\")],\r\n            encapsulation: core_1.ViewEncapsulation.None\r\n        })\r\n    ], BackgroundOverlayComponent);\r\n    return BackgroundOverlayComponent;\r\n}());\r\nexports.BackgroundOverlayComponent = BackgroundOverlayComponent;\r\n\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/background-overlay/background-overlay.component.ts?");
-
-/***/ }),
-
-/***/ "./src/app/components/footer/footer.component.ts":
-/*!*******************************************************!*\
-  !*** ./src/app/components/footer/footer.component.ts ***!
-  \*******************************************************/
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\r\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\r\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\r\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\r\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.FooterComponent = void 0;\r\nvar core_1 = __webpack_require__(/*! @angular/core */ \"./node_modules/@angular/core/fesm2020/core.mjs\");\r\nvar FooterComponent = /** @class */ (function () {\r\n    function FooterComponent() {\r\n    }\r\n    FooterComponent = __decorate([\r\n        (0, core_1.Component)({\r\n            selector: 'app-footer',\r\n            template: __webpack_require__(/*! ./footer.component.html */ \"./src/app/components/footer/footer.component.html\"),\r\n            styles: [__webpack_require__(/*! ./footer.component.scss */ \"./src/app/components/footer/footer.component.scss\")]\r\n        })\r\n    ], FooterComponent);\r\n    return FooterComponent;\r\n}());\r\nexports.FooterComponent = FooterComponent;\r\n\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/footer/footer.component.ts?");
+eval("\r\nvar __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\r\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\r\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\r\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\r\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.BackgroundOverlayComponent = void 0;\r\nvar core_1 = __webpack_require__(/*! @angular/core */ \"./node_modules/@angular/core/fesm2020/core.mjs\");\r\nvar BackgroundOverlayComponent = /** @class */ (function () {\r\n    function BackgroundOverlayComponent() {\r\n    }\r\n    BackgroundOverlayComponent.prototype.ngAfterViewInit = function () {\r\n        this.update();\r\n        window.addEventListener('resize', this.update.bind(this));\r\n    };\r\n    BackgroundOverlayComponent.prototype.update = function () {\r\n        var left = document.querySelector('nav .right').getBoundingClientRect().left;\r\n        var width = document.querySelector('nav .right').getBoundingClientRect().width;\r\n        this.circle.nativeElement.style.left = (left - 60) + 'px';\r\n        this.circle.nativeElement.style.width = (width + 120) + 'px';\r\n    };\r\n    __decorate([\r\n        (0, core_1.ViewChild)('navbarCircle')\r\n    ], BackgroundOverlayComponent.prototype, \"circle\", void 0);\r\n    BackgroundOverlayComponent = __decorate([\r\n        (0, core_1.Component)({\r\n            selector: 'app-background-overlay',\r\n            template: __webpack_require__(/*! ./background-overlay.component.html */ \"./src/app/components/background-overlay/background-overlay.component.html\"),\r\n            styles: [__webpack_require__(/*! ./background-overlay.component.scss */ \"./src/app/components/background-overlay/background-overlay.component.scss\")],\r\n            encapsulation: core_1.ViewEncapsulation.None\r\n        })\r\n    ], BackgroundOverlayComponent);\r\n    return BackgroundOverlayComponent;\r\n}());\r\nexports.BackgroundOverlayComponent = BackgroundOverlayComponent;\r\n\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/background-overlay/background-overlay.component.ts?");
 
 /***/ }),
 
@@ -858,17 +847,6 @@ eval("\r\nvar __decorate = (this && this.__decorate) || function (decorators, ta
 
 /***/ }),
 
-/***/ "./src/app/components/page-title/page-title.component.ts":
-/*!***************************************************************!*\
-  !*** ./src/app/components/page-title/page-title.component.ts ***!
-  \***************************************************************/
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-eval("\r\nvar __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\r\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\r\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\r\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\r\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.PageTitleComponent = void 0;\r\nvar core_1 = __webpack_require__(/*! @angular/core */ \"./node_modules/@angular/core/fesm2020/core.mjs\");\r\nvar PageTitleComponent = /** @class */ (function () {\r\n    function PageTitleComponent() {\r\n        this.title = '';\r\n    }\r\n    PageTitleComponent.prototype.ngOnInit = function () {\r\n        var _a;\r\n        if (!this.title) {\r\n            this.title = (_a = document.querySelector('app-page-title')) === null || _a === void 0 ? void 0 : _a.getAttribute('page-title');\r\n        }\r\n    };\r\n    __decorate([\r\n        (0, core_1.Input)()\r\n    ], PageTitleComponent.prototype, \"title\", void 0);\r\n    PageTitleComponent = __decorate([\r\n        (0, core_1.Component)({\r\n            selector: 'app-page-title',\r\n            template: __webpack_require__(/*! ./page-title.component.html */ \"./src/app/components/page-title/page-title.component.html\"),\r\n            styles: [__webpack_require__(/*! ./page-title.component.scss */ \"./src/app/components/page-title/page-title.component.scss\")],\r\n            encapsulation: core_1.ViewEncapsulation.None\r\n        })\r\n    ], PageTitleComponent);\r\n    return PageTitleComponent;\r\n}());\r\nexports.PageTitleComponent = PageTitleComponent;\r\n\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/page-title/page-title.component.ts?");
-
-/***/ }),
-
 /***/ "./src/app/components/privacy-consentement/privacy-consentement.component.ts":
 /*!***********************************************************************************!*\
   !*** ./src/app/components/privacy-consentement/privacy-consentement.component.ts ***!
@@ -880,25 +858,47 @@ eval("\r\nvar __decorate = (this && this.__decorate) || function (decorators, ta
 
 /***/ }),
 
-/***/ "./src/app/pages/contact/contact.main.ts":
-/*!***********************************************!*\
-  !*** ./src/app/pages/contact/contact.main.ts ***!
-  \***********************************************/
+/***/ "./src/app/pages/404/404.main.ts":
+/*!***************************************!*\
+  !*** ./src/app/pages/404/404.main.ts ***!
+  \***************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
-eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nvar platform_browser_dynamic_1 = __webpack_require__(/*! @angular/platform-browser-dynamic */ \"./node_modules/@angular/platform-browser-dynamic/fesm2020/platform-browser-dynamic.mjs\");\r\nvar contact_module_1 = __webpack_require__(/*! ./contact.module */ \"./src/app/pages/contact/contact.module.ts\");\r\n__webpack_require__(/*! zone.js */ \"./node_modules/zone.js/fesm2015/zone.js\");\r\n(0, platform_browser_dynamic_1.platformBrowserDynamic)().bootstrapModule(contact_module_1.ContactModule);\r\n\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/contact/contact.main.ts?");
+eval("\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nvar platform_browser_dynamic_1 = __webpack_require__(/*! @angular/platform-browser-dynamic */ \"./node_modules/@angular/platform-browser-dynamic/fesm2020/platform-browser-dynamic.mjs\");\r\nvar _404_module_1 = __webpack_require__(/*! ./404.module */ \"./src/app/pages/404/404.module.ts\");\r\n__webpack_require__(/*! zone.js */ \"./node_modules/zone.js/fesm2015/zone.js\");\r\n(0, platform_browser_dynamic_1.platformBrowserDynamic)().bootstrapModule(_404_module_1.Error404Module);\r\n\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/404/404.main.ts?");
 
 /***/ }),
 
-/***/ "./src/app/pages/contact/contact.module.ts":
-/*!*************************************************!*\
-  !*** ./src/app/pages/contact/contact.module.ts ***!
-  \*************************************************/
+/***/ "./src/app/pages/404/404.module.ts":
+/*!*****************************************!*\
+  !*** ./src/app/pages/404/404.module.ts ***!
+  \*****************************************/
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 "use strict";
-eval("\r\nvar __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\r\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\r\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\r\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\r\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.ContactModule = void 0;\r\nvar core_1 = __webpack_require__(/*! @angular/core */ \"./node_modules/@angular/core/fesm2020/core.mjs\");\r\nvar platform_browser_1 = __webpack_require__(/*! @angular/platform-browser */ \"./node_modules/@angular/platform-browser/fesm2020/platform-browser.mjs\");\r\nvar footer_component_1 = __webpack_require__(/*! ../../components/footer/footer.component */ \"./src/app/components/footer/footer.component.ts\");\r\nvar icon_button_component_1 = __webpack_require__(/*! ../../components/icon-button/icon-button.component */ \"./src/app/components/icon-button/icon-button.component.ts\");\r\nvar page_title_component_1 = __webpack_require__(/*! ../../components/page-title/page-title.component */ \"./src/app/components/page-title/page-title.component.ts\");\r\nvar mobile_navbar_component_1 = __webpack_require__(/*! ../../components/navbar/mobile-navbar/mobile-navbar.component */ \"./src/app/components/navbar/mobile-navbar/mobile-navbar.component.ts\");\r\nvar desktop_navbar_component_1 = __webpack_require__(/*! ../../components/navbar/desktop-navbar/desktop-navbar.component */ \"./src/app/components/navbar/desktop-navbar/desktop-navbar.component.ts\");\r\nvar navbar_logo_component_1 = __webpack_require__(/*! ../../components/navbar-logo/navbar-logo.component */ \"./src/app/components/navbar-logo/navbar-logo.component.ts\");\r\nvar background_overlay_component_1 = __webpack_require__(/*! ../../components/background-overlay/background-overlay.component */ \"./src/app/components/background-overlay/background-overlay.component.ts\");\r\nvar language_switcher_component_1 = __webpack_require__(/*! ../../components/language-switcher/language-switcher.component */ \"./src/app/components/language-switcher/language-switcher.component.ts\");\r\nvar privacy_consentement_component_1 = __webpack_require__(/*! ../../components/privacy-consentement/privacy-consentement.component */ \"./src/app/components/privacy-consentement/privacy-consentement.component.ts\");\r\nvar icon_component_1 = __webpack_require__(/*! ../../components/icon/icon.component */ \"./src/app/components/icon/icon.component.ts\");\r\nvar ContactModule = /** @class */ (function () {\r\n    function ContactModule() {\r\n    }\r\n    ContactModule = __decorate([\r\n        (0, core_1.NgModule)({\r\n            declarations: [\r\n                footer_component_1.FooterComponent,\r\n                icon_button_component_1.IconButtonComponent,\r\n                navbar_logo_component_1.NavbarLogoComponent,\r\n                mobile_navbar_component_1.MobileNavbarComponent,\r\n                desktop_navbar_component_1.DesktopNavbarComponent,\r\n                page_title_component_1.PageTitleComponent,\r\n                background_overlay_component_1.BackgroundOverlayComponent,\r\n                language_switcher_component_1.LanguageSwitcherComponent,\r\n                privacy_consentement_component_1.PrivacyConsentementComponent,\r\n                icon_component_1.IconComponent,\r\n            ],\r\n            imports: [\r\n                platform_browser_1.BrowserModule\r\n            ],\r\n            providers: [],\r\n            bootstrap: [mobile_navbar_component_1.MobileNavbarComponent, desktop_navbar_component_1.DesktopNavbarComponent, page_title_component_1.PageTitleComponent, footer_component_1.FooterComponent, privacy_consentement_component_1.PrivacyConsentementComponent]\r\n        })\r\n    ], ContactModule);\r\n    return ContactModule;\r\n}());\r\nexports.ContactModule = ContactModule;\r\n\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/contact/contact.module.ts?");
+eval("\r\nvar __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\r\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\r\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\r\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\r\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.Error404Module = void 0;\r\nvar core_1 = __webpack_require__(/*! @angular/core */ \"./node_modules/@angular/core/fesm2020/core.mjs\");\r\nvar platform_browser_1 = __webpack_require__(/*! @angular/platform-browser */ \"./node_modules/@angular/platform-browser/fesm2020/platform-browser.mjs\");\r\nvar background_overlay_component_1 = __webpack_require__(/*! ../../components/background-overlay/background-overlay.component */ \"./src/app/components/background-overlay/background-overlay.component.ts\");\r\nvar icon_button_component_1 = __webpack_require__(/*! ../../components/icon-button/icon-button.component */ \"./src/app/components/icon-button/icon-button.component.ts\");\r\nvar icon_component_1 = __webpack_require__(/*! ../../components/icon/icon.component */ \"./src/app/components/icon/icon.component.ts\");\r\nvar language_switcher_component_1 = __webpack_require__(/*! ../../components/language-switcher/language-switcher.component */ \"./src/app/components/language-switcher/language-switcher.component.ts\");\r\nvar navbar_logo_component_1 = __webpack_require__(/*! ../../components/navbar-logo/navbar-logo.component */ \"./src/app/components/navbar-logo/navbar-logo.component.ts\");\r\nvar desktop_navbar_component_1 = __webpack_require__(/*! ../../components/navbar/desktop-navbar/desktop-navbar.component */ \"./src/app/components/navbar/desktop-navbar/desktop-navbar.component.ts\");\r\nvar mobile_navbar_component_1 = __webpack_require__(/*! ../../components/navbar/mobile-navbar/mobile-navbar.component */ \"./src/app/components/navbar/mobile-navbar/mobile-navbar.component.ts\");\r\nvar privacy_consentement_component_1 = __webpack_require__(/*! ../../components/privacy-consentement/privacy-consentement.component */ \"./src/app/components/privacy-consentement/privacy-consentement.component.ts\");\r\nvar stage_background_component_1 = __webpack_require__(/*! ../index/components/stage-background/stage-background.component */ \"./src/app/pages/index/components/stage-background/stage-background.component.ts\");\r\nvar main_component_1 = __webpack_require__(/*! ./components/main/main.component */ \"./src/app/pages/404/components/main/main.component.ts\");\r\nvar Error404Module = /** @class */ (function () {\r\n    function Error404Module() {\r\n    }\r\n    Error404Module = __decorate([\r\n        (0, core_1.NgModule)({\r\n            declarations: [\r\n                icon_button_component_1.IconButtonComponent,\r\n                navbar_logo_component_1.NavbarLogoComponent,\r\n                mobile_navbar_component_1.MobileNavbarComponent,\r\n                desktop_navbar_component_1.DesktopNavbarComponent,\r\n                background_overlay_component_1.BackgroundOverlayComponent,\r\n                language_switcher_component_1.LanguageSwitcherComponent,\r\n                privacy_consentement_component_1.PrivacyConsentementComponent,\r\n                icon_component_1.IconComponent,\r\n                stage_background_component_1.StageBackgroundComponent,\r\n                main_component_1.MainComponent,\r\n            ],\r\n            imports: [\r\n                platform_browser_1.BrowserModule\r\n            ],\r\n            providers: [],\r\n            bootstrap: [mobile_navbar_component_1.MobileNavbarComponent, desktop_navbar_component_1.DesktopNavbarComponent, main_component_1.MainComponent, privacy_consentement_component_1.PrivacyConsentementComponent]\r\n        })\r\n    ], Error404Module);\r\n    return Error404Module;\r\n}());\r\nexports.Error404Module = Error404Module;\r\n\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/404/404.module.ts?");
+
+/***/ }),
+
+/***/ "./src/app/pages/404/components/main/main.component.ts":
+/*!*************************************************************!*\
+  !*** ./src/app/pages/404/components/main/main.component.ts ***!
+  \*************************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    var desc = Object.getOwnPropertyDescriptor(m, k);\r\n    if (!desc || (\"get\" in desc ? !m.__esModule : desc.writable || desc.configurable)) {\r\n      desc = { enumerable: true, get: function() { return m[k]; } };\r\n    }\r\n    Object.defineProperty(o, k2, desc);\r\n}) : (function(o, m, k, k2) {\r\n    if (k2 === undefined) k2 = k;\r\n    o[k2] = m[k];\r\n}));\r\nvar __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {\r\n    Object.defineProperty(o, \"default\", { enumerable: true, value: v });\r\n}) : function(o, v) {\r\n    o[\"default\"] = v;\r\n});\r\nvar __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\r\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\r\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\r\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\r\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\r\n};\r\nvar __importStar = (this && this.__importStar) || function (mod) {\r\n    if (mod && mod.__esModule) return mod;\r\n    var result = {};\r\n    if (mod != null) for (var k in mod) if (k !== \"default\" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);\r\n    __setModuleDefault(result, mod);\r\n    return result;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.MainComponent = void 0;\r\nvar core_1 = __webpack_require__(/*! @angular/core */ \"./node_modules/@angular/core/fesm2020/core.mjs\");\r\nvar LanguageUtils = __importStar(__webpack_require__(/*! ../../../../utils/language-utils */ \"./src/app/utils/language-utils.ts\"));\r\nvar MainComponent = /** @class */ (function () {\r\n    function MainComponent() {\r\n    }\r\n    MainComponent.prototype.ngOnInit = function () {\r\n        var pathname = this.getLocationPathName();\r\n        if (LanguageUtils.get() == 'fr' && !pathname.startsWith('/fr/404')) {\r\n            this.setLocationPathName('/fr/404');\r\n        }\r\n    };\r\n    MainComponent.prototype.getLocationPathName = function () {\r\n        return window.location.pathname;\r\n    };\r\n    MainComponent.prototype.setLocationPathName = function (pathname) {\r\n        window.location.pathname = pathname;\r\n    };\r\n    MainComponent = __decorate([\r\n        (0, core_1.Component)({\r\n            selector: 'app-main',\r\n            template: __webpack_require__(/*! ./main.component.html */ \"./src/app/pages/404/components/main/main.component.html\"),\r\n            styles: [__webpack_require__(/*! ./main.component.scss */ \"./src/app/pages/404/components/main/main.component.scss\")],\r\n        })\r\n    ], MainComponent);\r\n    return MainComponent;\r\n}());\r\nexports.MainComponent = MainComponent;\r\n\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/404/components/main/main.component.ts?");
+
+/***/ }),
+
+/***/ "./src/app/pages/index/components/stage-background/stage-background.component.ts":
+/*!***************************************************************************************!*\
+  !*** ./src/app/pages/index/components/stage-background/stage-background.component.ts ***!
+  \***************************************************************************************/
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+"use strict";
+eval("\r\nvar __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {\r\n    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;\r\n    if (typeof Reflect === \"object\" && typeof Reflect.decorate === \"function\") r = Reflect.decorate(decorators, target, key, desc);\r\n    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;\r\n    return c > 3 && r && Object.defineProperty(target, key, r), r;\r\n};\r\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\r\nexports.StageBackgroundComponent = void 0;\r\nvar core_1 = __webpack_require__(/*! @angular/core */ \"./node_modules/@angular/core/fesm2020/core.mjs\");\r\nvar StageBackgroundComponent = /** @class */ (function () {\r\n    function StageBackgroundComponent() {\r\n    }\r\n    StageBackgroundComponent = __decorate([\r\n        (0, core_1.Component)({\r\n            selector: 'app-stage-background',\r\n            template: __webpack_require__(/*! ./stage-background.component.html */ \"./src/app/pages/index/components/stage-background/stage-background.component.html\"),\r\n            styles: [__webpack_require__(/*! ./stage-background.component.scss */ \"./src/app/pages/index/components/stage-background/stage-background.component.scss\")],\r\n        })\r\n    ], StageBackgroundComponent);\r\n    return StageBackgroundComponent;\r\n}());\r\nexports.StageBackgroundComponent = StageBackgroundComponent;\r\n\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/index/components/stage-background/stage-background.component.ts?");
 
 /***/ }),
 
@@ -1078,7 +1078,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module can't be inlined because the eval devtool is used.
-/******/ 	var __webpack_exports__ = __webpack_require__("./src/app/pages/contact/contact.main.ts");
+/******/ 	var __webpack_exports__ = __webpack_require__("./src/app/pages/404/404.main.ts");
 /******/ 	
 /******/ })()
 ;
