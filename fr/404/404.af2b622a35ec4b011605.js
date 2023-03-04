@@ -55,7 +55,7 @@ eval("// Module\nvar code = \"<iconify-icon #icon [icon]=\\\"iconName\\\" class=
   \*******************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ../../assets/logo.svg */ \"./src/app/assets/logo.svg\");\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<a class=\\\"logo\\\" href='/fr/'>\\r\\n    <img src='\" + ___HTML_LOADER_REPLACEMENT_0___ + \"' alt='logo' />\\r\\n</a>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar-logo/navbar-logo.component.html?");
+eval("// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ../../assets/logo.svg */ \"./src/app/assets/logo.svg\");\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<a class=\\\"logo\\\" href='/'>\\r\\n    <img src='\" + ___HTML_LOADER_REPLACEMENT_0___ + \"' alt='logo' />\\r\\n</a>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar-logo/navbar-logo.component.html?");
 
 /***/ }),
 
@@ -75,7 +75,7 @@ eval("// Module\nvar code = \"<nav #nav class=\\\"roof\\\">\\r\\n    <div class=
   \******************************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<nav #navbar class=\\\"nav-container\\\">\\r\\n    <div class=\\\"nav-top\\\">\\r\\n        <app-navbar-logo></app-navbar-logo>\\r\\n        <div class=\\\"menu-button-container\\\">\\r\\n            <app-icon-link class=\\\"navbar-icon\\\" link=\\\"/search\\\" icon='ic:round-search'></app-icon-link>\\r\\n            <app-language-switcher></app-language-switcher>\\r\\n            <app-icon-button class=\\\"navbar-icon menu-icon\\\" #openButton (action)=\\\"onOpen()\\\" icon='icon-park-outline:hamburger-button'></app-icon-button>\\r\\n            <app-icon-button class=\\\"navbar-icon close-icon\\\" #closeButton (action)=\\\"onClose()\\\" icon='material-symbols:close-rounded'></app-icon-button>\\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <div class=\\\"menu-container\\\" #navigation>\\r\\n        <a href=\\\"/fr/favourites\\\">Favoris</a>\\r\\n        <a href=\\\"/fr/history\\\">Historique</a>\\r\\n        <a href=\\\"/fr/about\\\">Info</a>\\r\\n        <a href=\\\"/fr/contact\\\">Contact</a>\\r\\n    </div>\\r\\n</nav>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar/mobile-navbar/mobile-navbar.component.html?");
+eval("// Module\nvar code = \"<nav #navbar class=\\\"nav-container\\\">\\r\\n    <div class=\\\"nav-top\\\">\\r\\n        <app-navbar-logo></app-navbar-logo>\\r\\n        <div class=\\\"menu-button-container\\\">\\r\\n            <app-icon-link class=\\\"navbar-icon\\\" link=\\\"/search\\\" icon='ic:round-search'></app-icon-link>\\r\\n            <app-language-switcher></app-language-switcher>\\r\\n            <app-icon-button class=\\\"navbar-icon menu-icon\\\" #openButton (action)=\\\"onOpen()\\\" icon='icon-park-outline:hamburger-button'></app-icon-button>\\r\\n            <app-icon-button class=\\\"navbar-icon close-icon\\\" #closeButton (action)=\\\"onClose()\\\" icon='material-symbols:close-rounded'></app-icon-button>\\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <div class=\\\"menu-container\\\" #navigation>\\r\\n        <a href=\\\"/favourites\\\">Favourites</a>\\r\\n        <a href=\\\"/history\\\">History</a>\\r\\n        <a href=\\\"/about\\\">About</a>\\r\\n        <a href=\\\"/contact\\\">Contact</a>\\r\\n    </div>\\r\\n</nav>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar/mobile-navbar/mobile-navbar.component.html?");
 
 /***/ }),
 
@@ -85,7 +85,7 @@ eval("// Module\nvar code = \"<nav #navbar class=\\\"nav-container\\\">\\r\\n   
   \*************************************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<div class=\\\"cookies-consentement-msg\\\">\\r\\n    <app-icon iconName=\\\"ant-design:info-circle-outlined\\\" color=\\\"#545252\\\"></app-icon>\\r\\n    <p>We use Cookies and Local Storage to improve your experience on our website. To find out more, read our <a href=\\\"/fr/privacy\\\">Privacy Policy</a></p>\\r\\n</div>\\r\\n<button (click)=\\\"onGotItButtonClick()\\\">Got it</button>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/privacy-consentement/privacy-consentement.component.html?");
+eval("// Module\nvar code = \"<div class=\\\"cookies-consentement-msg\\\">\\r\\n    <app-icon iconName=\\\"ant-design:info-circle-outlined\\\" color=\\\"#545252\\\"></app-icon>\\r\\n    <p>We use Cookies and Local Storage to improve your experience on our website. To find out more, read our <a href=\\\"/privacy\\\">Privacy Policy</a></p>\\r\\n</div>\\r\\n<button (click)=\\\"onGotItButtonClick()\\\">Got it</button>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/privacy-consentement/privacy-consentement.component.html?");
 
 /***/ }),
 
@@ -105,7 +105,7 @@ eval("// Module\nvar code = \"<svg class=\\\"flag\\\" #en title=\\\"Switch to En
   \***************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<div class=\\\"layout-error-404\\\">\\r\\n  <app-stage-background></app-stage-background>\\r\\n  <h1>404</h1>\\r\\n  <span>Oopss... Page Introuvable</span>\\r\\n  <a href=\\\"/fr/\\\" class=\\\"btn\\\">Retourner à l'accueil</a>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/404/components/main/main.component.html?");
+eval("// Module\nvar code = \"<div class=\\\"layout-error-404\\\">\\r\\n  <app-stage-background></app-stage-background>\\r\\n  <h1>404</h1>\\r\\n  <span>Oopss... Page Not Found</span>\\r\\n  <a href=\\\"/\\\" class=\\\"btn\\\">Back to home</a>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/404/components/main/main.component.html?");
 
 /***/ }),
 

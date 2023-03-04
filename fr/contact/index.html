@@ -1,6 +1,6 @@
 
             <!DOCTYPE html>
-            <html lang="fr">
+            <html lang="en">
             <head>
                 <meta charset="utf-8" />
                 <title>Quizz Time | Contact</title>
@@ -51,8 +51,15 @@
                     <app-desktop-navbar></app-desktop-navbar>
                     <main class="max-width">
         
-<app-page-title class="static-page" page-title="Nous Contacter"></app-page-title>
-<div class="page-content"><p>Feel free to send us an email anytime: <a href="mailto:contact@quizztime.net">contact@quizztime.net</a></p><p>We will try our best to respond in less than 24 Hours, Thanks!</p></div>
+<app-page-title class="static-page" page-title="Contact Us"></app-page-title>
+<div class="page-content">
+    <div class="image">
+        <iconify-icon icon="line-md:email-twotone"></iconify-icon>
+    </div>
+    <div class="text">
+        <p>Feel free to send us an email anytime: <a href="mailto:contact@quizztime.net">contact@quizztime.net</a></p> <p>We will try our best to respond in less than 24 Hours, Thanks!</p>
+    </div>
+</div>
 <app-comments></app-comments>
 
         </main>
@@ -87,7 +94,31 @@
             </body></html>
 
 <style>
+    .page-content {
+        display: flex;
+        align-items: center;
+        column-gap: 3rem;
+    }
+    .page-content iconify-icon {
+        font-size: 10rem;
+        color: var(--primary-color);
+    }
+    .page-content p:last-child {
+        padding-bottom: 0;
+    }
     .page-content a {
         color: #0a5fc5;
+    }
+    .page-content .text {
+        padding-right: 1rem;
+    }
+
+    @media screen and (max-width: 650px) {
+        .page-content iconify-icon {
+            display: none;
+        }
+        .page-content .text {
+            padding-right: 0;
+        }
     }
 </style>
