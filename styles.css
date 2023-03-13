@@ -7474,7 +7474,8 @@ button {
 
 .p-tooltip-text {
   font-size: 1.4rem !important;
-  white-space: nowrap !important; }
+  white-space: nowrap !important;
+  width: fit-content !important; }
 
 @font-face {
   font-family: 'Circular';
