@@ -7387,6 +7387,9 @@ body.scrollbar-hidden::-webkit-scrollbar {
   outline: none;
   border-color: var(--primary-color) !important; }
 
+input:focus {
+  border-color: transparent !important; }
+
 html,
 body {
   overflow-x: hidden;
