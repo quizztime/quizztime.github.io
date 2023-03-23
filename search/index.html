@@ -31,6 +31,12 @@
                     .loader.hide {opacity: 0;}
                 </style>
                 
+                <script>
+                    var disqus_config = function () {
+                        this.page.url = window.location.origin + window.location.pathname;
+                        this.page.identifier = window.location.pathname.replace('/fr', '');
+                    };
+                </script>
             <script defer src="/search/search.6317c099cd6fdb2fb956.js"></script></head>
             <body>
                 <div class="loader">
