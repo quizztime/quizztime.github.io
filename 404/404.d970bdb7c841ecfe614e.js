@@ -35,7 +35,7 @@ eval("// Module\nvar code = \"<app-category *ngFor=\\\"let category of categorie
   \*************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<div class=\\\"category-item-container\\\">\\r\\n  <a href='/{{category.slug}}' [title]='category.name'>\\r\\n    <app-icon [iconName]='category.icon' [color]=\\\"category.color\\\"></app-icon>\\r\\n    <span #name>{{category.name}}</span>\\r\\n  </a>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/category/category.component.html?");
+eval("// Module\nvar code = \"<div class=\\\"category-item-container\\\">\\r\\n  <a href='__page.base__/{{category.slug}}' [title]='category.name'>\\r\\n    <app-icon [iconName]='category.icon' [color]=\\\"category.color\\\"></app-icon>\\r\\n    <span #name>{{category.name}}</span>\\r\\n  </a>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/category/category.component.html?");
 
 /***/ }),
 
@@ -55,7 +55,7 @@ eval("// Module\nvar code = \"<div class=\\\"container\\\">\\r\\n    <span class
   \*************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<app-section-title value=\\\"Comments\\\"></app-section-title>\\r\\n<div class=\\\"section-container\\\">\\r\\n    <div id=\\\"disqus_thread\\\"></div>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/comments/comments.component.html?");
+eval("// Module\nvar code = \"<app-section-title value=\\\"__page.comment.title__\\\"></app-section-title>\\r\\n<div class=\\\"section-container\\\">\\r\\n    <div id=\\\"disqus_thread\\\"></div>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/comments/comments.component.html?");
 
 /***/ }),
 
@@ -75,7 +75,7 @@ eval("// Module\nvar code = \"{{currentValue}}\\r\\n\";\n// Exports\nmodule.expo
   \*********************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ../../assets/logo.svg */ \"./src/app/assets/logo.svg\");\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<footer>\\r\\n    <a class=\\\"logo\\\" href='/' target=\\\"_blank\\\">\\r\\n        <img src='\" + ___HTML_LOADER_REPLACEMENT_0___ + \"' alt='logo' />\\r\\n    </a>\\r\\n    <div class=\\\"links\\\">\\r\\n        <a href=\\\"/about\\\">About</a>\\r\\n        <span>|</span>\\r\\n        <a href=\\\"/privacy\\\">Privacy</a>\\r\\n        <span>|</span>\\r\\n        <a href=\\\"/contact\\\">Contact</a>\\r\\n    </div>\\r\\n    <p class=\\\"all-right-reserved\\\">© 2023 Quizz Time. All rights reserved</p>\\r\\n    <ng-content></ng-content>\\r\\n</footer>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/footer/footer.component.html?");
+eval("// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ../../assets/logo.svg */ \"./src/app/assets/logo.svg\");\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<footer>\\r\\n    <a class=\\\"logo\\\" href='__page.base__/' target=\\\"_blank\\\">\\r\\n        <img src='\" + ___HTML_LOADER_REPLACEMENT_0___ + \"' alt='logo' />\\r\\n    </a>\\r\\n    <div class=\\\"links\\\">\\r\\n        <a href=\\\"__page.base__/about\\\">__link.name.about__</a>\\r\\n        <span>|</span>\\r\\n        <a href=\\\"__page.base__/privacy\\\">__link.name.privacy__</a>\\r\\n        <span>|</span>\\r\\n        <a href=\\\"__page.base__/contact\\\">__link.name.contact__</a>\\r\\n    </div>\\r\\n    <p class=\\\"all-right-reserved\\\">__all.right.reserved__</p>\\r\\n    <ng-content></ng-content>\\r\\n</footer>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/footer/footer.component.html?");
 
 /***/ }),
 
@@ -115,7 +115,7 @@ eval("// Module\nvar code = \"<iconify-icon #icon [icon]=\\\"iconName\\\" class=
   \*******************************************************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ../../assets/logo.svg */ \"./src/app/assets/logo.svg\");\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<a class=\\\"logo\\\" href='/'>\\r\\n    <img src='\" + ___HTML_LOADER_REPLACEMENT_0___ + \"' alt='logo' />\\r\\n</a>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar-logo/navbar-logo.component.html?");
+eval("// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/html-loader/dist/runtime/getUrl.js */ \"./node_modules/html-loader/dist/runtime/getUrl.js\");\nvar ___HTML_LOADER_IMPORT_0___ = __webpack_require__(/*! ../../assets/logo.svg */ \"./src/app/assets/logo.svg\");\n// Module\nvar ___HTML_LOADER_REPLACEMENT_0___ = ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___(___HTML_LOADER_IMPORT_0___);\nvar code = \"<a class=\\\"logo\\\" href='__page.base__/'>\\r\\n    <img src='\" + ___HTML_LOADER_REPLACEMENT_0___ + \"' alt='logo' />\\r\\n</a>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar-logo/navbar-logo.component.html?");
 
 /***/ }),
 
@@ -125,7 +125,7 @@ eval("// Imports\nvar ___HTML_LOADER_GET_SOURCE_FROM_IMPORT___ = __webpack_requi
   \********************************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<nav #nav class=\\\"roof\\\">\\r\\n    <div class=\\\"nav-container max-width\\\">\\r\\n        <div class='left'>\\r\\n            <app-navbar-logo></app-navbar-logo>\\r\\n        </div>\\r\\n        <div class='right'>\\r\\n            <!-- <app-icon-button class=\\\"navbar-icon\\\" (action)=\\\"onOpen()\\\" icon='ic:round-search'></app-icon-button> -->\\r\\n            <app-icon-link pTooltip=\\\"Search\\\" tooltipPosition=\\\"bottom\\\" class=\\\"navbar-icon\\\" link=\\\"/search\\\" icon='ic:round-search'></app-icon-link>\\r\\n            <app-icon-link pTooltip=\\\"Favourites\\\" tooltipPosition=\\\"bottom\\\" class=\\\"navbar-icon\\\" link=\\\"/favourites\\\" icon='mdi:heart'></app-icon-link>\\r\\n            <app-icon-link pTooltip=\\\"History\\\" tooltipPosition=\\\"bottom\\\" class=\\\"navbar-icon\\\" link=\\\"/history\\\" icon='ic:round-history'></app-icon-link>\\r\\n            <app-language-switcher></app-language-switcher>\\r\\n        </div>\\r\\n    </div>\\r\\n</nav>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar/desktop-navbar/desktop-navbar.component.html?");
+eval("// Module\nvar code = \"<nav #nav class=\\\"roof\\\">\\r\\n    <div class=\\\"nav-container max-width\\\">\\r\\n        <div class='left'>\\r\\n            <app-navbar-logo></app-navbar-logo>\\r\\n        </div>\\r\\n        <div class='right'>\\r\\n            <!-- <app-icon-button class=\\\"navbar-icon\\\" (action)=\\\"onOpen()\\\" icon='ic:round-search'></app-icon-button> -->\\r\\n            <app-icon-link pTooltip=\\\"__link.name.search__\\\" tooltipPosition=\\\"bottom\\\" class=\\\"navbar-icon\\\" link=\\\"/search\\\" icon='ic:round-search'></app-icon-link>\\r\\n            <app-icon-link pTooltip=\\\"__link.name.favourites__\\\" tooltipPosition=\\\"bottom\\\" class=\\\"navbar-icon\\\" link=\\\"/favourites\\\" icon='mdi:heart'></app-icon-link>\\r\\n            <app-icon-link pTooltip=\\\"__link.name.history__\\\" tooltipPosition=\\\"bottom\\\" class=\\\"navbar-icon\\\" link=\\\"/history\\\" icon='ic:round-history'></app-icon-link>\\r\\n            <app-language-switcher></app-language-switcher>\\r\\n        </div>\\r\\n    </div>\\r\\n</nav>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar/desktop-navbar/desktop-navbar.component.html?");
 
 /***/ }),
 
@@ -135,7 +135,7 @@ eval("// Module\nvar code = \"<nav #nav class=\\\"roof\\\">\\r\\n    <div class=
   \******************************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<nav #navbar class=\\\"nav-container\\\">\\r\\n    <div class=\\\"nav-top\\\">\\r\\n        <app-navbar-logo></app-navbar-logo>\\r\\n        <div class=\\\"menu-button-container\\\">\\r\\n            <app-icon-link pTooltip=\\\"Search\\\" tooltipPosition=\\\"bottom\\\" class=\\\"navbar-icon\\\" link=\\\"/search\\\" icon='ic:round-search'></app-icon-link>\\r\\n            <app-language-switcher></app-language-switcher>\\r\\n            <app-icon-button class=\\\"navbar-icon menu-icon\\\" #openButton (action)=\\\"onOpen()\\\" icon='icon-park-outline:hamburger-button'></app-icon-button>\\r\\n            <app-icon-button class=\\\"navbar-icon close-icon\\\" #closeButton (action)=\\\"onClose()\\\" icon='material-symbols:close-rounded'></app-icon-button>\\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <div class=\\\"menu-container\\\" #navigation>\\r\\n        <a href=\\\"/favourites\\\">Favourites</a>\\r\\n        <a href=\\\"/history\\\">History</a>\\r\\n        <a href=\\\"/about\\\">About</a>\\r\\n        <a href=\\\"/contact\\\">Contact</a>\\r\\n    </div>\\r\\n</nav>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar/mobile-navbar/mobile-navbar.component.html?");
+eval("// Module\nvar code = \"<nav #navbar class=\\\"nav-container\\\">\\r\\n    <div class=\\\"nav-top\\\">\\r\\n        <app-navbar-logo></app-navbar-logo>\\r\\n        <div class=\\\"menu-button-container\\\">\\r\\n            <app-icon-link pTooltip=\\\"__link.name.search__\\\" tooltipPosition=\\\"bottom\\\" class=\\\"navbar-icon\\\" link=\\\"/search\\\" icon='ic:round-search'></app-icon-link>\\r\\n            <app-language-switcher></app-language-switcher>\\r\\n            <app-icon-button class=\\\"navbar-icon menu-icon\\\" #openButton (action)=\\\"onOpen()\\\" icon='icon-park-outline:hamburger-button'></app-icon-button>\\r\\n            <app-icon-button class=\\\"navbar-icon close-icon\\\" #closeButton (action)=\\\"onClose()\\\" icon='material-symbols:close-rounded'></app-icon-button>\\r\\n        </div>\\r\\n    </div>\\r\\n\\r\\n    <div class=\\\"menu-container\\\" #navigation>\\r\\n        <a href=\\\"__page.base__/favourites\\\">__link.name.favourites__</a>\\r\\n        <a href=\\\"__page.base__/history\\\">__link.name.history__</a>\\r\\n        <a href=\\\"__page.base__/about\\\">__link.name.about__</a>\\r\\n        <a href=\\\"__page.base__/contact\\\">__link.name.contact__</a>\\r\\n    </div>\\r\\n</nav>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/navbar/mobile-navbar/mobile-navbar.component.html?");
 
 /***/ }),
 
@@ -165,7 +165,7 @@ eval("// Module\nvar code = \"<div class=\\\"page-title-container\\\">\\r\\n    
   \*************************************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<div class=\\\"cookies-consentement-msg\\\">\\r\\n    <app-icon iconName=\\\"ant-design:info-circle-outlined\\\" color=\\\"#545252\\\"></app-icon>\\r\\n    <p>We use Cookies and Local Storage to improve your experience on our website. To find out more, read our <a href=\\\"/privacy\\\">Privacy Policy</a></p>\\r\\n</div>\\r\\n<button (click)=\\\"onGotItButtonClick()\\\">Got it</button>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/privacy-consentement/privacy-consentement.component.html?");
+eval("// Module\nvar code = \"<div class=\\\"cookies-consentement-msg\\\">\\r\\n    <app-icon iconName=\\\"ant-design:info-circle-outlined\\\" color=\\\"#545252\\\"></app-icon>\\r\\n    <p>We use Cookies and Local Storage to improve your experience on our website. To find out more, read our <a href=\\\"__page.base__/privacy\\\">Privacy Policy</a></p>\\r\\n</div>\\r\\n<button (click)=\\\"onGotItButtonClick()\\\">Got it</button>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/privacy-consentement/privacy-consentement.component.html?");
 
 /***/ }),
 
@@ -185,7 +185,7 @@ eval("// Module\nvar code = \"<app-quiz *ngFor=\\\"let quiz of quizzes let index
   \*****************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<div #quizTeaser class=\\\"teaser-container\\\">\\r\\n    <a href=\\\"/{{quiz.slug}}\\\">\\r\\n        <div class=\\\"media\\\">\\r\\n            <img class=\\\"teaser-image\\\" src=\\\"{{image}}\\\" />\\r\\n            <div class=\\\"level\\\"><span class=\\\"questions-length\\\">{{quiz.questions.length}}</span> Questions</div>\\r\\n        </div>\\r\\n        <div class=\\\"content\\\">\\r\\n            <div class=\\\"tags\\\">\\r\\n                <div class=\\\"tag\\\" *ngFor=\\\"let tag of quiz.tags\\\">{{tag}}</div>\\r\\n            </div>\\r\\n            <div class=\\\"title\\\">{{quiz.title}}</div>\\r\\n            <div class=\\\"description\\\">{{quiz.description}}</div>\\r\\n        </div>\\r\\n    </a>\\r\\n    <app-like-switcher [quiz]=\\\"quiz\\\"></app-like-switcher>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/quiz/quiz.component.html?");
+eval("// Module\nvar code = \"<div #quizTeaser class=\\\"teaser-container\\\">\\r\\n    <a href=\\\"__page.base__/{{quiz.slug}}\\\">\\r\\n        <div class=\\\"media\\\">\\r\\n            <img class=\\\"teaser-image\\\" src=\\\"{{image}}\\\" />\\r\\n            <div class=\\\"level\\\"><span class=\\\"questions-length\\\">{{quiz.questions.length}}</span> Questions</div>\\r\\n        </div>\\r\\n        <div class=\\\"content\\\">\\r\\n            <div class=\\\"tags\\\">\\r\\n                <div class=\\\"tag\\\" *ngFor=\\\"let tag of quiz.tags\\\">{{tag}}</div>\\r\\n            </div>\\r\\n            <div class=\\\"title\\\">{{quiz.title}}</div>\\r\\n            <div class=\\\"description\\\">{{quiz.description}}</div>\\r\\n        </div>\\r\\n    </a>\\r\\n    <app-like-switcher [quiz]=\\\"quiz\\\"></app-like-switcher>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/quiz/quiz.component.html?");
 
 /***/ }),
 
@@ -215,7 +215,7 @@ eval("// Module\nvar code = \"<div class=\\\"section-title\\\">{{value}}</div>\"
   \*********************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<div class=\\\"header\\\">\\r\\n    <app-section-title [value]=\\\"value\\\"></app-section-title>\\r\\n    <a #showallVC class=\\\"showall-link showall-desktop\\\" href=\\\"/{{showall}}\\\">Show All</a>\\r\\n</div>\\r\\n<div class=\\\"slider-container\\\">\\r\\n    <div class=\\\"slider-container-2\\\">\\r\\n        <app-icon #next class=\\\"next-button\\\" iconName='ic:round-arrow-forward-ios' (click)=\\\"toRight()\\\"></app-icon>\\r\\n        <app-icon #prev class=\\\"prev-button\\\" iconName='ic:round-arrow-back-ios' (click)=\\\"toLeft()\\\"></app-icon>\\r\\n        <div #slider class=\\\"slider\\\">\\r\\n            <ng-content></ng-content>\\r\\n        </div>\\r\\n    </div>\\r\\n    <a #showallVC class=\\\"showall-link showall-mobile\\\" href=\\\"/{{showall}}\\\">Show All</a>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/slider/slider.component.html?");
+eval("// Module\nvar code = \"<div class=\\\"header\\\">\\r\\n    <app-section-title [value]=\\\"value\\\"></app-section-title>\\r\\n    <a #showallVC class=\\\"showall-link showall-desktop\\\" href=\\\"__page.base__/{{showall}}\\\">__link.showall__</a>\\r\\n</div>\\r\\n<div class=\\\"slider-container\\\">\\r\\n    <div class=\\\"slider-container-2\\\">\\r\\n        <app-icon #next class=\\\"next-button\\\" iconName='ic:round-arrow-forward-ios' (click)=\\\"toRight()\\\"></app-icon>\\r\\n        <app-icon #prev class=\\\"prev-button\\\" iconName='ic:round-arrow-back-ios' (click)=\\\"toLeft()\\\"></app-icon>\\r\\n        <div #slider class=\\\"slider\\\">\\r\\n            <ng-content></ng-content>\\r\\n        </div>\\r\\n    </div>\\r\\n    <a #showallVC class=\\\"showall-link showall-mobile\\\" href=\\\"__page.base__/{{showall}}\\\">__link.showall__</a>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/slider/slider.component.html?");
 
 /***/ }),
 
@@ -245,7 +245,7 @@ eval("// Module\nvar code = \"<div pTooltip=\\\"Changer en Anglais\\\" tooltipPo
   \********************************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<app-icon-button pTooltip=\\\"Like\\\" tooltipPosition=\\\"bottom\\\" #likeButton (action)=\\\"onLike()\\\" icon='mdi:heart-outline'></app-icon-button>\\r\\n<app-icon-button pTooltip=\\\"Unlike\\\" tooltipPosition=\\\"bottom\\\" #dislikeButton (action)=\\\"onDislike()\\\" icon='mdi:heart'></app-icon-button>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/switcher/like-switcher/like-switcher.component.html?");
+eval("// Module\nvar code = \"<app-icon-button pTooltip=\\\"__button.like__\\\" tooltipPosition=\\\"bottom\\\" #likeButton (action)=\\\"onLike()\\\" icon='mdi:heart-outline'></app-icon-button>\\r\\n<app-icon-button pTooltip=\\\"__button.unlike__\\\" tooltipPosition=\\\"bottom\\\" #dislikeButton (action)=\\\"onDislike()\\\" icon='mdi:heart'></app-icon-button>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/components/switcher/like-switcher/like-switcher.component.html?");
 
 /***/ }),
 
@@ -265,7 +265,7 @@ eval("// Module\nvar code = \"<app-icon-button #disableSoundButton (action)=\\\"
   \***************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<div class=\\\"layout-error-404\\\">\\r\\n  <app-stage-background></app-stage-background>\\r\\n  <h1>404</h1>\\r\\n  <span>Oopss... Page Not Found</span>\\r\\n  <a href=\\\"/\\\" class=\\\"btn\\\">Back to home</a>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/404/components/main/main.component.html?");
+eval("// Module\nvar code = \"<div class=\\\"layout-error-404\\\">\\r\\n  <app-stage-background></app-stage-background>\\r\\n  <h1>404</h1>\\r\\n  <span>__page.404.content__</span>\\r\\n  <a href=\\\"__page.base__/\\\" class=\\\"btn\\\">__page.404.button.text__</a>\\r\\n</div>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/404/components/main/main.component.html?");
 
 /***/ }),
 
@@ -275,7 +275,7 @@ eval("// Module\nvar code = \"<div class=\\\"layout-error-404\\\">\\r\\n  <app-s
   \********************************************************************************/
 /***/ ((module) => {
 
-eval("// Module\nvar code = \"<form class=\\\"search-form\\\" [formGroup]=\\\"searchForm\\\" (ngSubmit)=\\\"onSubmit()\\\">\\r\\n        <input type=\\\"text\\\" formControlName=\\\"keyWord\\\" placeholder=\\\"Search\\\">\\r\\n        <input type=\\\"submit\\\" value=\\\"Search\\\">\\r\\n</form>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/search/components/search-form/search-form.component.html?");
+eval("// Module\nvar code = \"<form class=\\\"search-form\\\" [formGroup]=\\\"searchForm\\\" (ngSubmit)=\\\"onSubmit()\\\">\\r\\n        <input type=\\\"text\\\" formControlName=\\\"keyWord\\\" placeholder=\\\"__page.search.placeholder__\\\">\\r\\n        <input type=\\\"submit\\\" value=\\\"__page.search.button__\\\">\\r\\n</form>\";\n// Exports\nmodule.exports = code;\n\n//# sourceURL=webpack://quizztime.github.io/./src/app/pages/search/components/search-form/search-form.component.html?");
 
 /***/ }),
 
